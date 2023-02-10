@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        "nav2_test = my_nav2_pkg.nav2_test:main"
+        "nav2_test = my_nav2_pkg.nav2_test:main",
+        "nav2_house_patrol = my_nav2_pkg.nav2_house_patrol:main"
         ],
     },
 )
